@@ -103,28 +103,14 @@
         position: relative;
         margin: 2em 0;
         padding: 12px 24px 12px 30px;
-        border-left: 4px solid #999;
+        border-left: 4px solid #ccc;
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
         background-color: #f8f8f8;
+        color: #999;
         br {
             display: none;
         }
-    }
-    .refer:before {
-        position: absolute;
-        top: 14px;
-        left: -12px;
-        content: "译";
-        width: 20px;
-        height: 20px;
-        color: #fff;
-        font-size: 14px;
-        line-height: 20px;
-        font-weight: bold;
-        text-align: center;
-        background-color: #999;
-        font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     }
 }
 
